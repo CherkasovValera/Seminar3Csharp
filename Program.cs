@@ -47,20 +47,47 @@
 // Задача 21 Напишите программу, которая принимает на вход координаты двух точек и 
 // находит расстояние между ними в 3D пространстве.
 
-Console.Clear();
- Console.WriteLine("Введите координату координату точки А:  X1");
- int a = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("Введите координату координату точки А:  Y1");
- int b = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("Введите координату координату точки А:  Z1");
- int c = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("Введите координату координату точки B:  X2");
- int a1 = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("Введите координату координату точки B:  Y2");
- int b1 = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("Введите координату координату точки B:  Z2");
- int c1 = Convert.ToInt32(Console.ReadLine());
+// Console.Clear();
+//  Console.WriteLine("Введите координату координату точки А:  X1");
+//  int a = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("Введите координату координату точки А:  Y1");
+//  int b = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("Введите координату координату точки А:  Z1");
+//  int c = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("Введите координату координату точки B:  X2");
+//  int a1 = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("Введите координату координату точки B:  Y2");
+//  int b1 = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("Введите координату координату точки B:  Z2");
+//  int c1 = Convert.ToInt32(Console.ReadLine());
 
- double d = Math.Sqrt(Math.Pow(a1-a,2) + Math.Pow(b1-b,2) + Math.Pow(c1-c,2));
+//  double d = Math.Sqrt(Math.Pow(a1-a,2) + Math.Pow(b1-b,2) + Math.Pow(c1-c,2));
 
- Console.Write (d);
+//  Console.Write ($"Расстояние между точками А и В -> {d}");
+
+//Задача 23
+
+//Напишите программу, которая принимает на вход число (N) 
+//и выдаёт таблицу кубов чисел от 1 до N.
+
+// Console.Clear();
+// Console.WriteLine("Введите число:  ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int i = 1;
+// if (n < 1)
+// {
+//     while (i > n - 1)
+//     {
+
+//         Console.Write($" {Math.Pow(i, 3)}");
+//         i--;
+//     }
+// }
+// else
+// {
+//     while (i < n + 1)
+//     {
+//         Console.Write($" {Math.Pow(i, 3)}");
+//         i++;
+//     }
+// }
